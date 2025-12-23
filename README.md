@@ -37,6 +37,7 @@ To prevent deterministic repetition loops common in LSTM models, the inference e
 Instead of selecting the single highest probability word, the system selects from the Top 3 most probable words and samples randomly among them. This results in more diverse and natural sentence completions.
 
 ## Repository Structure
+```
 NextWord-Predictor/
 ├── Data/
 │   ├── final_training_data_refined.txt  # Cleaned dataset (168k lines)
@@ -48,7 +49,7 @@ NextWord-Predictor/
 ├── file.ipynb                           # Data cleaning and preprocessing pipeline
 ├── app.py                               # Streamlit Web App (Inference Interface)
 └── requirements.txt                     # Dependencies
-
+```
 ## Installation and Usage
 
 1. Clone the repository:
