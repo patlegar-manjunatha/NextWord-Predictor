@@ -53,13 +53,19 @@ NextWord-Predictor/
 ## Installation and Usage
 
 1. Clone the repository:
+```
    git clone https://github.com/patlegar-manjunatha/NextWord-Predictor.git
+```
 
 2. Install dependencies:
+```
    pip install -r requirements.txt
+```
 
 3. Run the Interface:
+```
    streamlit run app.py
+```
 
 ---
 **Author:** [Manjunatha Patlegar](https://www.linkedin.com/in/patlegar-manjunatha/)
